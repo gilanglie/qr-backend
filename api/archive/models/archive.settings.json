@@ -26,15 +26,16 @@
         "wni"
       ]
     },
-    "passports": {
-      "collection": "paspor"
-    },
     "status": {
       "type": "enumeration",
       "enum": [
         "Active",
         "Inactive"
       ]
+    },
+    "passports": {
+      "via": "archive",
+      "collection": "paspor"
     }
   }
 }
