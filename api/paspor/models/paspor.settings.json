@@ -1,0 +1,81 @@
+{
+  "kind": "collectionType",
+  "collectionName": "paspors",
+  "info": {
+    "name": "Passport",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "code": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "dateBirth": {
+      "type": "date"
+    },
+    "datePrint": {
+      "type": "date"
+    },
+    "noKTP": {
+      "type": "integer"
+    },
+    "noPassport": {
+      "type": "integer"
+    },
+    "gender": {
+      "type": "enumeration",
+      "enum": [
+        "L",
+        "P"
+      ]
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "paspor",
+        "ijin_tinggal"
+      ]
+    },
+    "status": {
+      "type": "enumeration",
+      "enum": [
+        "ENTRI_DATA",
+        "SELESAI",
+        "BIOMETRIC",
+        "APV_KANIM",
+        "PENCETAKAN",
+        "WAWANCARA",
+        "UJI_KUALITAS",
+        "PENYERAHAN",
+        "ALOKASI",
+        "APV_PUSAT",
+        "PENGECEKAN_DAN_PENCETAKAN",
+        "CETAK_TANDA_TERIMA_PERMOHONAN",
+        "PENGAMBILAN_DATA_BIOMETRIK",
+        "PEMINDAIAN_DOKUMEN",
+        "PEREKAMAN_DATA_IZIN_TINGGAL",
+        "PENENTUAN_DAN_PERSETUJUAN_KANTOR_IMIGRASI",
+        "PENERBITAN_NO_REGISTER",
+        "PEMINDAIAN_DOKUMEN_SELESAI",
+        "PEMERIKSAAN_CEKAL",
+        "PERSETUJUAN_IZIN_TINGGAL",
+        "PERMOHONAN_PERSETUJUAN_DIRJENIM",
+        "IDENTIFIKASI_BIOMETRIK",
+        "TRANSAKSI_PEMBAYARAN",
+        "CATATAN_KEABSAHAN_DOKUMEN",
+        "PERMOHONAN_PERSETUJUAN_KADIVIM",
+        "PERSETUJUAN_PERUBAHAN",
+        "PEMINDAIAN_DOKUMEN_KANIM",
+        "KEPUTUSAN_KADIVIM"
+      ]
+    }
+  }
+}

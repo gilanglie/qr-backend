@@ -1,0 +1,40 @@
+{
+  "kind": "collectionType",
+  "collectionName": "archives",
+  "info": {
+    "name": "archive",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "limit": {
+      "type": "integer",
+      "default": 100
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "wna",
+        "wni"
+      ]
+    },
+    "passports": {
+      "collection": "paspor"
+    },
+    "status": {
+      "type": "enumeration",
+      "enum": [
+        "Active",
+        "Inactive"
+      ]
+    }
+  }
+}
