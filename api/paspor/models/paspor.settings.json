@@ -24,12 +24,6 @@
     "datePrint": {
       "type": "date"
     },
-    "noKTP": {
-      "type": "integer"
-    },
-    "noPassport": {
-      "type": "integer"
-    },
     "gender": {
       "type": "enumeration",
       "enum": [
@@ -80,6 +74,12 @@
     "archive": {
       "via": "passports",
       "model": "archive"
+    },
+    "noKTP": {
+      "type": "string"
+    },
+    "noPassport": {
+      "type": "string"
     }
   }
 }

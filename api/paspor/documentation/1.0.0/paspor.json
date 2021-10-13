@@ -650,12 +650,6 @@
             "type": "string",
             "format": "date"
           },
-          "noKTP": {
-            "type": "integer"
-          },
-          "noPassport": {
-            "type": "integer"
-          },
           "gender": {
             "type": "string",
             "enum": [
@@ -748,6 +742,12 @@
               }
             }
           },
+          "noKTP": {
+            "type": "string"
+          },
+          "noPassport": {
+            "type": "string"
+          },
           "published_at": {
             "type": "string",
             "format": "date-time"
@@ -769,12 +769,6 @@
           "datePrint": {
             "type": "string",
             "format": "date"
-          },
-          "noKTP": {
-            "type": "integer"
-          },
-          "noPassport": {
-            "type": "integer"
           },
           "gender": {
             "type": "string",
@@ -824,6 +818,12 @@
             ]
           },
           "archive": {
+            "type": "string"
+          },
+          "noKTP": {
+            "type": "string"
+          },
+          "noPassport": {
             "type": "string"
           },
           "published_at": {

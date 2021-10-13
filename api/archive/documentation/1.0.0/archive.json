@@ -565,12 +565,6 @@
                 "datePrint": {
                   "type": "string"
                 },
-                "noKTP": {
-                  "type": "integer"
-                },
-                "noPassport": {
-                  "type": "integer"
-                },
                 "gender": {
                   "type": "string",
                   "enum": [
@@ -619,6 +613,12 @@
                   ]
                 },
                 "archive": {
+                  "type": "string"
+                },
+                "noKTP": {
+                  "type": "string"
+                },
+                "noPassport": {
                   "type": "string"
                 },
                 "published_at": {

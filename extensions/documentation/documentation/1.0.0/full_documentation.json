@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "10/10/2021 2:04:07 AM"
+    "x-generation-date": "10/11/2021 4:03:14 AM"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -3461,12 +3461,6 @@
                 "datePrint": {
                   "type": "string"
                 },
-                "noKTP": {
-                  "type": "integer"
-                },
-                "noPassport": {
-                  "type": "integer"
-                },
                 "gender": {
                   "type": "string",
                   "enum": [
@@ -3515,6 +3509,12 @@
                   ]
                 },
                 "archive": {
+                  "type": "string"
+                },
+                "noKTP": {
+                  "type": "string"
+                },
+                "noPassport": {
                   "type": "string"
                 },
                 "published_at": {
@@ -3597,12 +3597,6 @@
           "datePrint": {
             "type": "string",
             "format": "date"
-          },
-          "noKTP": {
-            "type": "integer"
-          },
-          "noPassport": {
-            "type": "integer"
           },
           "gender": {
             "type": "string",
@@ -3696,6 +3690,12 @@
               }
             }
           },
+          "noKTP": {
+            "type": "string"
+          },
+          "noPassport": {
+            "type": "string"
+          },
           "published_at": {
             "type": "string",
             "format": "date-time"
@@ -3717,12 +3717,6 @@
           "datePrint": {
             "type": "string",
             "format": "date"
-          },
-          "noKTP": {
-            "type": "integer"
-          },
-          "noPassport": {
-            "type": "integer"
           },
           "gender": {
             "type": "string",
@@ -3772,6 +3766,12 @@
             ]
           },
           "archive": {
+            "type": "string"
+          },
+          "noKTP": {
+            "type": "string"
+          },
+          "noPassport": {
             "type": "string"
           },
           "published_at": {
